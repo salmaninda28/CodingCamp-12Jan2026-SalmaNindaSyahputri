@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#service">Vision & Mission</a></li>
+        </ul>
+
+    <!-- home page -->
+     <section id="home" class="section home">
+        <h1>WELCOME</h1>
+        <h3>labubu company</h3>
+        <p>I am Salma Ninda Syahputri as CEO of labubu company</p>
+        <p id="welcome-speech" style="font-size: 20px; margin-top: 20px;"></p>
+     </section>
+
+     <br>
+
+        <!-- about me -->
+         <section id="about" class="section">
+        <h1>ABOUT US</h1>
+        <p>labubu company is a company that sells various kinds of cute stuffed animals made from high-quality materials and safe for children.  labubu company is committed to providing the best products and services to customers.</p>
+    </section>
+    <br>
+
+    <!--vision mission-->
+    <section id="service" class="section service">
+        <div class="service-box">
+            <h2>BRAND <br>STRATEGY</h2>
+            <p> Our mission is to provide high-quality products, excellent customer service</p>
+        </div>
+
+        <div class="service-box">
+            <h2>CREATIVE <br> MARKETING </h2>
+            <p>marketing strategy for events and creative support for internal and external communication</p>
+        </div>
+
+        <div class="service-box">
+            <h2>CONTRIBUTE</h2>
+            <p>we also  contribute positevely to the community through various social programs that we held every month</p>
+        </div>
+    </section>
+
+    <section class ="section contact">
+        <h1>contack us</h1>
+        <form id="contactForm">
+            <label for="nama">nama: </label>
+            <input type="text" id="nama" name="nama" required>
+            <br>
+            
+            <label for="kelamin">jenis kelamin: </label>
+            <input type="radio" value="pria" name="jenis_kelamin"><span class="radio-label">pria</span>
+            <input type="radio" value="wanita" name="jenis_kelamin"><span class="radio-label">wanita</span> 
+            <br>
+             <br>
+            
+            <label for="umur">umur: </label>
+            <input type="number" id="umur" name="umur" min="1" max="120">
+            <br>
+            
+            <label for="email">email: </label>
+            <input type="email" id="email" name="email" required>
+            <br>
+            
+            <label for="number">phone number: </label>
+            <input type="tel" id="number" name="number">
+            <br>
+             <br>
+            
+            <label for="komentar">comment:</label><br>
+            <textarea id="komentar" name="komentar" rows="4" placeholder="tulis komentar disini"></textarea>
+            <br>
+            <br>
+            
+            <button type="submit">Submit</button>
+        </form>
+    
+    </section>
+
+<script src="script.js"></script>
+</body>
+</html>
